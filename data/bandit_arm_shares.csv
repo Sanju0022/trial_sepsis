@@ -1,0 +1,25 @@
+bandit,context,arm,times_chosen
+thompson,all,NEWS2 >= 5,1202
+thompson_contextual,unknown,never treat,1154
+thompson,all,never treat,572
+thompson_contextual,unknown,SIRS >= 2,363
+thompson_contextual,unknown,treat at once,157
+thompson,all,SIRS >= 2,126
+thompson_contextual,low,never treat,123
+thompson_contextual,low,NEWS2 >= 5,104
+thompson,all,treat at once,100
+thompson_contextual,low,SIRS >= 2,24
+thompson_contextual,unknown,NEWS2 >= 5,14
+thompson_contextual,medium,SIRS >= 2,11
+thompson_contextual,medium,NEWS2 >= 5,11
+thompson_contextual,low-medium,never treat,8
+thompson_contextual,low-medium,SIRS >= 2,7
+thompson_contextual,low-medium,NEWS2 >= 5,7
+thompson_contextual,low-medium,treat at once,4
+thompson_contextual,low,treat at once,3
+thompson_contextual,medium,never treat,2
+thompson_contextual,high,treat at once,2
+thompson_contextual,high,never treat,2
+thompson_contextual,high,NEWS2 >= 5,2
+thompson_contextual,high,SIRS >= 2,1
+thompson_contextual,medium,treat at once,1
