@@ -1,6 +1,15 @@
+# Two themes: the app follows the viewer's system setting, and viewers can switch in Settings -> Theme.
 [theme]
-primaryColor = "#2a78d6"
-backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f4f5f2"
-textColor = "#0b0b0b"
-font = "sans serif"
+baseRadius = "0.75rem"
+
+[theme.light]
+primaryColor = "#3b6ff5"
+backgroundColor = "#f6f7fb"
+secondaryBackgroundColor = "#eaeef7"
+textColor = "#141824"
+
+[theme.dark]
+primaryColor = "#5b86f7"
+backgroundColor = "#0f1420"
+secondaryBackgroundColor = "#1b2232"
+textColor = "#e7eaf0"
